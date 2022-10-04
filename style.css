@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+body * {
+    box-sizing: border-box;
+    font-family: 'Montserrat', monospace;
+}
+
+body {
+    width: auto;
+    height: 90%;
+    background-color: silver;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: auto;
+    width: 70%;
+    background-color: azure;
+    position: relative;
+    margin: auto;
+    border: 3px black solid;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+}
+
+.input-group>input::placeholder {
+    text-align: center;
+}
+
+.input-group>input {
+    height: 40px;
+    width: 40%;
+    border-radius: 4px;
+    border: 1px black solid;
+    text-align: center;
+}
+
+.btn-add {
+    width: 100px;
+    height: 35px;
+    margin: 0px 00px 0px 15px;
+    border-radius: 4px;
+    border: 1px black solid;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-add:hover {
+    background-color: lightgrey;
+}
+
+.editarBtn {
+    width: 100px;
+    height: 35px;
+    margin: 20px 0px 20px 15px;
+    border-radius: 4px;
+    border: 1px black solid;
+    cursor: pointer;
+    outline: none;
+}
+
+.editarBtn:hover {
+    background-color: lightgrey;
+}
+
+.removerBtn {
+    width: 100px;
+    height: 35px;
+    margin: 20px 0px 20px 15px;
+    border-radius: 4px;
+    border: 1px black solid;
+    cursor: pointer;
+    outline: none;
+}
+
+.removerBtn:hover {
+    background-color: lightgrey;
+}
+
+.list-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input_item {
+    height: 35px;
+    width: 30%;
+    border-radius: 4px;
+    border: 1px black solid;
+    text-align: center;
+}
+
+.item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+}
