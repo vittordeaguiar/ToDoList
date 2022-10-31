@@ -7,8 +7,8 @@ body * {
 
 body {
     width: auto;
-    height: 90%;
-    background-color: silver;
+    height: 100%;
+    background: linear-gradient(90deg, rgb(198, 139, 226) 0%, rgba(173,216,230));
 }
 
 h1 {
@@ -23,12 +23,9 @@ nav {
 
 main {
     height: auto;
-    width: 70%;
-    background-color: azure;
+    width: 40%;
     position: relative;
     margin: auto;
-    border: 3px black solid;
-    border-radius: 4px;
     display: flex;
     flex-direction: column;
 }
@@ -46,7 +43,7 @@ main {
 }
 
 .input-group>input {
-    height: 40px;
+    height: 35px;
     width: 40%;
     border-radius: 4px;
     border: 1px black solid;
@@ -64,7 +61,7 @@ main {
 }
 
 .btn-add:hover {
-    background-color: lightgrey;
+    background-color: rgb(198, 139, 226);
 }
 
 .editarBtn {
@@ -78,7 +75,7 @@ main {
 }
 
 .editarBtn:hover {
-    background-color: lightgrey;
+    background-color: rgb(198, 139, 226);
 }
 
 .removerBtn {
@@ -92,7 +89,7 @@ main {
 }
 
 .removerBtn:hover {
-    background-color: lightgrey;
+    background-color: rgb(198, 139, 226);
 }
 
 .list-group {
